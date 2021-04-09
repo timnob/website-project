@@ -24,6 +24,7 @@ navigationItems.forEach((navigationItem) => {
 //javascript om naar de bovenste knop te scrollen.
 const scrollBtn = document.querySelector(".scrollToTop-btn");
 
+
 window.addEventListener("scroll", function(){
   scrollBtn.classList.toggle("active", window.scrollY > 500);
 });
