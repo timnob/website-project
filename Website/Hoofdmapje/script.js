@@ -1,10 +1,10 @@
-//javascript for navigation bar effects on scroll
+//javascript voor effecten van menu bij scrollen.
 window.addEventListener("scroll", function(){
   const header = document.querySelector("header");
   header.classList.toggle('sticky', window.scrollY > 0);
 });
 
-//javascript for responsive navigation sidebar menu
+//javascript voor een mooie navigatiemenu.
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
 const navigationItems = document.querySelectorAll(".navigation a")
@@ -21,20 +21,20 @@ navigationItems.forEach((navigationItem) => {
   });
 });
 
-//javascript for scroll to top button
+//javascript om naar de bovenste knop te scrollen.
 const scrollBtn = document.querySelector(".scrollToTop-btn");
 
 window.addEventListener("scroll", function(){
   scrollBtn.classList.toggle("active", window.scrollY > 500);
 });
 
-//javascript for scroll back to top on click scroll-to-top button
+//javascript om terug naar boven te scrollen door op de knop scroll-to-top te klikken.
 scrollBtn.addEventListener("click", () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
 
-//javascript for reveal website elements on scroll
+//javascript voor elementen.
 window.addEventListener("scroll", reveal);
 
 function reveal(){
