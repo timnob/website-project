@@ -123,7 +123,7 @@ header.sticky{
   padding: 10px 200px;
 }
 
-header .brand{
+header .naam{
   color: #fff;
   font-size: 1.8em;
   font-weight: 700;
@@ -131,11 +131,11 @@ header .brand{
   text-decoration: none;
 }
 
-header .navigation{
+header .navigatie{
   position: relative;
 }
 
-header .navigation a{
+header .navigatie a{
   color: #fff;
   font-size: 1em;
   font-weight: 500;
@@ -143,11 +143,11 @@ header .navigation a{
   margin-left: 30px;
 }
 
-header .navigation a:hover{
+header .navigatie a:hover{
   color: #3a6cf4;
 }
 
-header.sticky .navigation a:hover{
+header.sticky .navigatie a:hover{
   color: #000;
 }
 
@@ -371,11 +371,11 @@ body{
   margin: 10px;
 }
 
-.work{
+.werk{
   background: #000016;
 }
 
-.work .content{
+.werk .content{
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -383,12 +383,12 @@ body{
   margin-top: 20px;
 }
 
-.work .content .card{
+.werk .content .card{
   width: 340px;
   margin: 15px;
 }
 
-.work .content .card .card-img{
+.werk .content .card .card-img{
   position: relative;
   width: 100%;
   height: 260px;
@@ -396,7 +396,7 @@ body{
   border-radius: 10px;
 }
 
-.work .content .card .card-img img{
+.werk .content .card .card-img img{
   position: absolute;
   top: 0;
   left: 0;
@@ -407,7 +407,7 @@ body{
   transition: 0.5s ease;
 }
 
-.work .content .card .card-img img:hover{
+.werk .content .card .card-img img:hover{
   transform: scale(1.2);
 }
 
@@ -553,11 +553,11 @@ body{
     padding: 10px 20px;
   }
 
-  header .navigation{
+  header .navigatie{
     display: none;
   }
 
-  header .navigation.active{
+  header .navigatie.active{
     z-index: 888;
     position: fixed;
     background: #fff;
@@ -573,7 +573,7 @@ body{
     transition: 0.3s ease;
   }
 
-  header .navigation a{
+  header .navigatie a{
     color: #000;
     font-size: 1.2em;
     margin: 10px;
@@ -581,13 +581,13 @@ body{
     border-radius: 20px;
   }
 
-  header .navigation a:hover{
+  header .navigatie a:hover{
     background: #3a6cf4;
     color: #fff;
     transition: 0.3s ease;
   }
 
-  .menu-btn{
+  .menu.btn{
     position: absolute;
     background: url(images/menu.png)no-repeat;
     background-size: 30px;
@@ -600,7 +600,7 @@ body{
     transition: 0.3s ease;
   }
 
-  .menu-btn.active{
+  .menu.btn.active{
     z-index: 999;
     background: url(images/close.png)no-repeat;
     background-size: 25px;
