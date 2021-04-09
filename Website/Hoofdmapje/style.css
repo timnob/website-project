@@ -305,7 +305,7 @@ body{
 }
 
 .skills .content .col-right .bar .css:before{
-  width: 90%;
+  width: 100%;
   background: #0c73b8;
 }
 
@@ -315,12 +315,12 @@ body{
 }
 
 .skills .content .col-right .bar .jquery:before{
-  width: 80%;
+  width: 65%;
   background: #30dd6d;
 }
 
 .skills .content .col-right .bar .php:before{
-  width: 75%;
+  width: 1%;
   background: #6d7eb8;
 }
 
